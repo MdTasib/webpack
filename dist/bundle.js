@@ -16,7 +16,7 @@
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n\r\n\r\nconst fn = () => {\r\n    console.log('I am fn');\r\n}\r\n\r\nfn();\r\n\r\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__.ABC);\n\n//# sourceURL=webpack://webpack/./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n\n\nvar fn = function fn() {\n  console.log('I am fn');\n};\n\nfn();\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__.ABC);\n\n//# sourceURL=webpack://webpack/./src/scripts/index.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ABC\": () => (/* binding */ ABC)\n/* harmony export */ });\nconst ABC = 'ABC';\n\n//# sourceURL=webpack://webpack/./src/scripts/test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ABC\": () => (/* binding */ ABC)\n/* harmony export */ });\nvar ABC = 'ABC';\n\n//# sourceURL=webpack://webpack/./src/scripts/test.js?");
 
 /***/ })
 
