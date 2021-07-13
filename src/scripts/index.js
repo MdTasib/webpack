@@ -1,5 +1,5 @@
 import { ABC } from './test';
-import '../styles/index.css';
+import '../styles/index.scss';
 
 const fn = () => {
     console.log('I am fn');
